@@ -1,0 +1,183 @@
+2025-07-16 03:04:25 - MainWindow constructor iniciado.
+2025-07-16 03:04:26 - InitializeComponent() completado.
+2025-07-16 03:04:26 - MainViewModel constructor iniciado.
+2025-07-16 03:04:26 - CheckInternetConnectivity iniciado.
+2025-07-16 03:04:26 - MainViewModel constructor finalizado.
+2025-07-16 03:04:26 - DataContext asignado.
+2025-07-16 03:04:26 - MainWindow constructor finalizado.
+2025-07-16 03:04:26 - MainWindow OnContentRendered.
+2025-07-16 03:04:31 - CheckInternetConnectivity iniciado.
+2025-07-16 03:04:31 - CheckInternetConnectivity finalizado.
+2025-07-16 03:04:34 - CheckInternetConnectivity finalizado.
+2025-07-16 03:04:36 - CheckInternetConnectivity iniciado.
+2025-07-16 03:04:36 - CheckInternetConnectivity finalizado.
+2025-07-16 03:04:41 - CheckInternetConnectivity iniciado.
+2025-07-16 03:04:41 - CheckInternetConnectivity finalizado.
+2025-07-16 03:04:41 - Modo oscuro cambiado a: True
+2025-07-16 03:04:42 - Modo oscuro cambiado a: False
+2025-07-16 03:04:43 - Modo oscuro cambiado a: True
+2025-07-16 03:04:46 - CheckInternetConnectivity iniciado.
+2025-07-16 03:04:46 - CheckInternetConnectivity finalizado.
+2025-07-16 03:13:22 - MainWindow constructor iniciado.
+2025-07-16 03:13:23 - InitializeComponent() completado.
+2025-07-16 03:13:23 - MainViewModel constructor iniciado.
+2025-07-16 03:13:23 - CheckInternetConnectivity iniciado.
+2025-07-16 03:13:23 - MainViewModel constructor finalizado.
+2025-07-16 03:13:23 - DataContext asignado.
+2025-07-16 03:13:23 - MainWindow constructor finalizado.
+2025-07-16 03:13:24 - MainWindow OnContentRendered.
+2025-07-16 03:13:25 - CheckInternetConnectivity finalizado.
+2025-07-16 03:13:28 - CheckInternetConnectivity iniciado.
+2025-07-16 03:13:28 - CheckInternetConnectivity finalizado.
+2025-07-16 03:13:33 - CheckInternetConnectivity iniciado.
+2025-07-16 03:13:33 - CheckInternetConnectivity finalizado.
+2025-07-16 03:13:38 - CheckInternetConnectivity iniciado.
+2025-07-16 03:13:38 - CheckInternetConnectivity finalizado.
+2025-07-16 03:13:43 - CheckInternetConnectivity iniciado.
+2025-07-16 03:13:43 - CheckInternetConnectivity finalizado.
+2025-07-16 03:13:48 - CheckInternetConnectivity iniciado.
+2025-07-16 03:13:48 - CheckInternetConnectivity finalizado.
+2025-07-16 03:13:48 - Modo oscuro cambiado a: True
+2025-07-16 03:13:49 - Modo oscuro cambiado a: False
+2025-07-16 03:13:50 - Modo oscuro cambiado a: True
+2025-07-16 03:13:50 - Modo oscuro cambiado a: False
+2025-07-16 03:13:51 - Modo oscuro cambiado a: True
+2025-07-16 03:13:51 - Modo oscuro cambiado a: False
+2025-07-16 03:13:51 - Modo oscuro cambiado a: True
+2025-07-16 03:13:52 - Modo oscuro cambiado a: False
+2025-07-16 03:13:53 - Modo oscuro cambiado a: True
+2025-07-16 03:13:53 - CheckInternetConnectivity iniciado.
+2025-07-16 03:13:53 - CheckInternetConnectivity finalizado.
+2025-07-16 03:13:57 - ExecuteStartProcess iniciado.
+2025-07-16 03:13:58 - CheckInternetConnectivity iniciado.
+2025-07-16 03:13:58 - CheckInternetConnectivity finalizado.
+2025-07-16 03:14:02 - Paso 1: GET http://10.0.0.1
+2025-07-16 03:14:03 - CheckInternetConnectivity iniciado.
+2025-07-16 03:14:04 - CheckInternetConnectivity finalizado.
+2025-07-16 03:14:08 - CheckInternetConnectivity iniciado.
+2025-07-16 03:14:08 - CheckInternetConnectivity finalizado.
+2025-07-16 03:14:13 - CheckInternetConnectivity iniciado.
+2025-07-16 03:14:13 - CheckInternetConnectivity finalizado.
+2025-07-16 03:14:18 - CheckInternetConnectivity iniciado.
+2025-07-16 03:14:18 - CheckInternetConnectivity finalizado.
+2025-07-16 03:14:19 - HttpRequestException en ExecuteStartProcess
+Tipo de Excepción: HttpRequestException
+Mensaje: Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder. (10.0.0.1:80)
+StackTrace:    at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.InjectNewHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at SemaforoApp.MainViewModel.ExecuteStartProcess() in e:\SemaforoApp\MainWindow.xaml.cs:line 324
+2025-07-16 03:14:19 - Excepción Interna: 
+Tipo de Excepción: SocketException
+Mensaje: Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder.
+StackTrace:    at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+2025-07-16 03:14:21 - ExecuteStartProcess finalizado.
+2025-07-16 03:14:23 - CheckInternetConnectivity iniciado.
+2025-07-16 03:14:26 - CheckInternetConnectivity finalizado.
+2025-07-16 03:14:28 - CheckInternetConnectivity iniciado.
+2025-07-16 03:14:28 - CheckInternetConnectivity finalizado.
+2025-07-16 03:14:29 - ExecuteCheckForUpdates iniciado.
+2025-07-16 03:14:29 - HttpRequestException al buscar actualizaciones
+Tipo de Excepción: HttpRequestException
+Mensaje: Response status code does not indicate success: 404 (Not Found).
+StackTrace:    at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at SemaforoApp.MainViewModel.ExecuteCheckForUpdates() in e:\SemaforoApp\MainWindow.xaml.cs:line 463
+2025-07-16 03:14:31 - ExecuteCheckForUpdates finalizado.
+2025-07-16 03:14:33 - CheckInternetConnectivity iniciado.
+2025-07-16 03:14:33 - CheckInternetConnectivity finalizado.
+2025-07-16 03:14:38 - CheckInternetConnectivity iniciado.
+2025-07-16 03:14:38 - CheckInternetConnectivity finalizado.
+2025-07-16 03:14:43 - CheckInternetConnectivity iniciado.
+2025-07-16 03:14:43 - CheckInternetConnectivity finalizado.
+2025-07-16 03:14:48 - CheckInternetConnectivity iniciado.
+2025-07-16 03:14:48 - CheckInternetConnectivity finalizado.
+2025-07-16 03:14:53 - CheckInternetConnectivity iniciado.
+2025-07-16 03:14:53 - CheckInternetConnectivity finalizado.
+2025-07-16 03:14:58 - CheckInternetConnectivity iniciado.
+2025-07-16 03:14:58 - CheckInternetConnectivity finalizado.
+2025-07-16 03:15:03 - CheckInternetConnectivity iniciado.
+2025-07-16 03:15:03 - CheckInternetConnectivity finalizado.
+2025-07-16 03:15:08 - CheckInternetConnectivity iniciado.
+2025-07-16 03:15:08 - CheckInternetConnectivity finalizado.
+2025-07-16 03:15:13 - CheckInternetConnectivity iniciado.
+2025-07-16 03:15:13 - CheckInternetConnectivity finalizado.
+2025-07-16 03:15:18 - CheckInternetConnectivity iniciado.
+2025-07-16 03:15:18 - CheckInternetConnectivity finalizado.
+2025-07-16 03:15:23 - CheckInternetConnectivity iniciado.
+2025-07-16 03:15:23 - CheckInternetConnectivity finalizado.
+2025-07-16 03:15:28 - CheckInternetConnectivity iniciado.
+2025-07-16 03:15:28 - CheckInternetConnectivity finalizado.
+2025-07-16 03:15:33 - CheckInternetConnectivity iniciado.
+2025-07-16 03:15:33 - CheckInternetConnectivity finalizado.
+2025-07-16 03:15:38 - CheckInternetConnectivity iniciado.
+2025-07-16 03:15:38 - CheckInternetConnectivity finalizado.
+2025-07-16 03:15:43 - CheckInternetConnectivity iniciado.
+2025-07-16 03:15:43 - CheckInternetConnectivity finalizado.
+2025-07-16 03:15:48 - CheckInternetConnectivity iniciado.
+2025-07-16 03:15:48 - CheckInternetConnectivity finalizado.
+2025-07-16 03:15:53 - CheckInternetConnectivity iniciado.
+2025-07-16 03:15:53 - CheckInternetConnectivity finalizado.
+2025-07-16 03:15:58 - CheckInternetConnectivity iniciado.
+2025-07-16 03:15:58 - CheckInternetConnectivity finalizado.
+2025-07-16 03:16:03 - CheckInternetConnectivity iniciado.
+2025-07-16 03:16:03 - CheckInternetConnectivity finalizado.
+2025-07-16 03:16:08 - CheckInternetConnectivity iniciado.
+2025-07-16 03:16:08 - CheckInternetConnectivity finalizado.
+2025-07-16 03:16:13 - CheckInternetConnectivity iniciado.
+2025-07-16 03:16:13 - CheckInternetConnectivity finalizado.
+2025-07-16 03:16:18 - CheckInternetConnectivity iniciado.
+2025-07-16 03:16:18 - CheckInternetConnectivity finalizado.
+2025-07-16 03:16:23 - CheckInternetConnectivity iniciado.
+2025-07-16 03:16:23 - CheckInternetConnectivity finalizado.
+2025-07-16 03:16:28 - CheckInternetConnectivity iniciado.
+2025-07-16 03:16:29 - CheckInternetConnectivity finalizado.
+2025-07-16 03:16:33 - CheckInternetConnectivity iniciado.
+2025-07-16 03:16:33 - CheckInternetConnectivity finalizado.
+2025-07-16 03:16:38 - CheckInternetConnectivity iniciado.
+2025-07-16 03:16:38 - CheckInternetConnectivity finalizado.
+2025-07-16 03:16:43 - CheckInternetConnectivity iniciado.
+2025-07-16 03:16:44 - CheckInternetConnectivity finalizado.
+2025-07-16 03:16:48 - CheckInternetConnectivity iniciado.
+2025-07-16 03:16:48 - CheckInternetConnectivity finalizado.
+2025-07-16 03:16:53 - CheckInternetConnectivity iniciado.
+2025-07-16 03:16:53 - CheckInternetConnectivity finalizado.
+2025-07-16 03:16:58 - CheckInternetConnectivity iniciado.
+2025-07-16 03:16:58 - CheckInternetConnectivity finalizado.
+2025-07-16 03:17:03 - CheckInternetConnectivity iniciado.
+2025-07-16 03:17:04 - CheckInternetConnectivity finalizado.
+2025-07-16 03:17:08 - CheckInternetConnectivity iniciado.
+2025-07-16 03:17:09 - CheckInternetConnectivity finalizado.
+2025-07-16 03:17:13 - CheckInternetConnectivity iniciado.
+2025-07-16 03:17:14 - CheckInternetConnectivity finalizado.
+2025-07-16 03:17:18 - CheckInternetConnectivity iniciado.
+2025-07-16 03:17:19 - CheckInternetConnectivity finalizado.
+2025-07-16 03:17:23 - CheckInternetConnectivity iniciado.
+2025-07-16 03:17:24 - CheckInternetConnectivity finalizado.
+2025-07-16 03:17:28 - CheckInternetConnectivity iniciado.
+2025-07-16 03:17:29 - CheckInternetConnectivity finalizado.
+2025-07-16 03:17:33 - CheckInternetConnectivity iniciado.
+2025-07-16 03:17:34 - CheckInternetConnectivity finalizado.
+2025-07-16 03:17:38 - CheckInternetConnectivity iniciado.
+2025-07-16 03:17:39 - CheckInternetConnectivity finalizado.
+2025-07-16 03:17:43 - CheckInternetConnectivity iniciado.
+2025-07-16 03:17:44 - CheckInternetConnectivity finalizado.
+2025-07-16 03:17:48 - CheckInternetConnectivity iniciado.
+2025-07-16 03:17:49 - CheckInternetConnectivity finalizado.
+2025-07-16 03:17:53 - CheckInternetConnectivity iniciado.
+2025-07-16 03:17:54 - CheckInternetConnectivity finalizado.
+2025-07-16 03:17:58 - CheckInternetConnectivity iniciado.
+2025-07-16 03:17:59 - CheckInternetConnectivity finalizado.
+2025-07-16 03:18:03 - CheckInternetConnectivity iniciado.
+2025-07-16 03:18:04 - CheckInternetConnectivity finalizado.
+2025-07-16 03:18:08 - CheckInternetConnectivity iniciado.
+2025-07-16 03:18:09 - CheckInternetConnectivity finalizado.
+2025-07-16 03:18:13 - CheckInternetConnectivity iniciado.
+2025-07-16 03:18:14 - CheckInternetConnectivity finalizado.
